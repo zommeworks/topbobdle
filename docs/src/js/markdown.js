@@ -1,4 +1,4 @@
-const testFolder = '../../posts/2019-08-06';
+const testFolder = '../../posts';
 const fs = require('fs');
 
 fs.readdir(testFolder, (err, files) => {
